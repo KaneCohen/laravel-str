@@ -1,0 +1,20 @@
+{
+    "name": "cohensive/str",
+    "description": "String replacement class for illuminate",
+    "authors": [
+        {
+            "name": "Kane Cohen",
+            "email": "kanecohen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cohensive\\Str": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
