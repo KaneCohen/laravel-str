@@ -13,6 +13,18 @@ class StrServiceProvider extends ServiceProvider
 	 */
 	protected $defer = false;
 
+  /**
+   * Register the service provider.
+   *
+   * @return void
+   */
+  public function register()
+  {
+		$this->app['str'] = $this->app->share(function($app) {
+			return new Str($app);
+		});
+  }
+
 	/**
 	 * Get the services provided by the provider.
 	 *
