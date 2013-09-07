@@ -1,6 +1,8 @@
 {
 	"name": "cohensive/str",
-	"description": "String replacement class for illuminate",
+	"description": "String replacement class for lLaravel 4",
+	"keywords": ["laravel", "string", "slug"],
+	"license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "Kane Cohen",
