@@ -1,6 +1,6 @@
 {
 	"name": "cohensive/str",
-	"description": "String replacement class for lLaravel 4",
+	"description": "String replacement class for Laravel 4",
 	"keywords": ["laravel", "string", "slug"],
 	"license": "BSD-3-Clause",
 	"authors": [
