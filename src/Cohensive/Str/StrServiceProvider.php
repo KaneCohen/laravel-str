@@ -1,8 +1,10 @@
-<?php namespace Cohensive\Str;
+<?php
+namespace Cohensive\Str;
 
 use Illuminate\Support\ServiceProvider;
 
-class StrServiceProvider extends ServiceProvider {
+class StrServiceProvider extends ServiceProvider
+{
 
 	/**
 	 * Indicates if loading of the provider is deferred.

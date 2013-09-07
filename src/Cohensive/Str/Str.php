@@ -1,6 +1,8 @@
-<?php namespace Cohensive\Str;
+<?php
+namespace Cohensive\Str;
 
-class Str {
+class Str
+{
 
 	/**
 	 * Map of characters and what they're to be replaced with
