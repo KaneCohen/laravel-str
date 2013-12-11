@@ -1,5 +1,4 @@
-<?php
-namespace Cohensive\Str;
+<?php namespace Cohensive\Str;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,7 +19,7 @@ class StrServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->app['str'] = $this->app->share(function($app) {
+		$this->app->bindShared('str', function($app) {
 			return new Str($app);
 		});
 	}
